@@ -11,4 +11,4 @@ WORKDIR /workspace
 
 RUN git clone https://github.com/pastadevourer/R_CDD.git
 
-CMD ["python3", "R_CDD/main.py"]
+CMD ["sleep", "infinity"]
