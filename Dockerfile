@@ -9,6 +9,6 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 WORKDIR /workspace
 
-RUN git clone https://github.com/pastadevourer/R_CAD.git
+RUN git clone https://github.com/pastadevourer/R_CDD.git
 
-CMD ["sleep", "infinity"]
+CMD ["python3", "R_CDD/main.py"]
